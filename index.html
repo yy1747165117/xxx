@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+			}
+			
+			a{
+				color: white;
+				text-decoration: none;
+			}
+			
+			.box{
+				position: absolute;
+				width: 100%;
+				height: 1000px;
+				background: url(img/ice.jpg),no-repeat;
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			.box .login{
+				position: absolute;
+				width: 250px;
+				height: 100px;
+				font-size: 38px;
+				color: white;
+				margin-top: 20px;
+				margin-left: 100px;
+			}
+			
+			.box .leftdiv{
+				position: relative;
+				color: white;
+				width: 700px;
+				height: 60px;
+				line-height: 60px;
+				padding: 10px 30px;
+				/* background-color: red; */
+				/* margin-top: 10px; */
+				margin-left: 200px;
+			}
+			
+			.box .leftdiv ul li{
+				list-style: none;
+				display: inline-block;
+				font-size: 25px;
+				margin-left: 60px;
+			}
+			.box .leftdiv ul ul{
+				position: absolute;
+				display: none;
+			}
+			.box .leftdiv ul  li:hover ul{
+				display:block;
+				background-color: red;
+			}
+			.box .leftdiv ul ul li{
+				position: absolute;
+				display: block;
+				
+			}
+			
+			.box .leftdiv ul ul li a{
+				position: absolute;
+				padding: 0 20px;
+
+			}
+			.box .rightdiv{
+				position: relative;
+				float: right;
+				font-weight: bold;
+				font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+				color: white;
+				width: 300px;
+				height: 60px;
+				margin-top: -50px;
+			}
+			
+			.box .rightdiv ul li{
+				list-style: none;
+				display: inline-block;
+				font-size: 18px;
+				margin-left: 45px;
+			}
+			
+			.box .rightdiv .register {
+				padding: 8px 20px;
+				border: 1px solid skyblue;
+				border-radius: 4px;
+				background-color: #1993FF;
+				
+			}
+			
+			.box .span{
+				position: absolute;
+				color: white;
+				/* padding: 10px 10px; */
+				font-size: 60px;
+				font-weight: bold;
+				width: 500px;
+				height: 50px;
+				margin-top: 300px;
+				margin-left: 45%;
+			}
+		
+			.box .join500px{
+				font-size: 30px;
+				position: absolute;
+				padding: 17px 45px;
+				border: 1px solid #19b3ff;
+				border-radius: 10px;
+				background-color: #1993FF;
+				margin-left: 48%;
+				margin-top: 400px;
+			}
+			.box .join500px:hover{
+				background: #19B3FF;
+			}
+			.box .rightdiv .register:hover{
+				background: #19B3FF;
+			}
+			/* .box .leftdiv ul  li:hover{
+				background: #19B3FF;
+			} */
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="login">
+				<a href="https://500px.com.cn/">500px</a>
+			</div> 
+			
+			<div class="leftdiv">
+				<ul>
+					<li >作品
+						<ul>
+							<li><a>热门</a></li>
+							<li><a>排名上升</a></li>
+							<li><a>新作</a></li>
+							<li><a>编辑推荐</a></li>
+							<li><a>影集</a></li>
+							<li><a>图文</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="https://500px.com.cn/contest">活动</a></li>
+					<li>摄影师</li>
+					<li><a href="https://500px.com.cn/page/home/copyright">版权</a></li>
+					<li><a href="https://500px.com.cn/page/home/shoppingmall">商城</a></li>
+				</ul>
+			</div>
+			<div class="rightdiv">
+				<ul>
+					<li><a href="https://500px.com.cn/user/login?redirect=https%3A%2F%2F500px.com.cn%2Fcommunity%2Findex.html">登录</a></li>
+					<li><a class="register" href="https://500px.com.cn/user/registerMe?redirect=https://www.500px.me/community/index.html">注册</a></li>
+				</ul>
+			</div>
+			<div>
+				 <span class="span">让美好触手可及!</span>
+				<a class="join500px" href="https://500px.com.cn/user/registerMe?redirect=https://500px.com.cn/community/index.html">加入500px</a>
+			</div>
+		</div>
+	</body>
+</html>
